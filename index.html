@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sekawan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__content">
+                <a href="#hero" class="heading-brand brand">
+                    <i width="40" height="40" data-feather="coffee"></i>
+                    <span class="brand__span">Sekawan</span>
+                </a>
+
+                <button class="navbar-nav-toggle" id="navbar-toggler" aria-label="toggle navbar navigation">
+                    <i data-feather="menu"></i>
+                </button>
+                <menu class="navbar-nav" id="navbar-nav">
+                    <li class="navbar-nav__list">
+                        <a href="#home" class="navbar-nav__link">
+                            <i class="icon" data-feather="home"></i>beranda
+                        </a>
+                    </li>
+                    <li class="navbar-nav__list">
+                        <a href="#about" class="navbar-nav__link">
+                            <i class="icon" data-feather="info"></i>About
+                        </a>
+                    </li>
+                    <li class="navbar-nav__list">
+                        <a href="#menu" class="navbar-nav__link">
+                            <i class="icon" data-feather="coffee"></i>menu
+                        </a>
+                    </li>
+                    <li class="navbar-nav__list">
+                        <a href="#testimony" class="navbar-nav__link">
+                            <i class="icon" data-feather="user"></i>testimoni
+                        </a>
+                    </li>
+                    <li class="navbar-nav__list">
+                        <a href="#contact" class="navbar-nav__link">
+                            <i class="icon" data-feather="phone"></i>Hubungi
+                        </a>
+                    </li>
+                </menu>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <article>
+            <section id="home">
+                <div class="section section--full section--hero">
+                    <div class="container container--hero">
+                        <hgroup class="hgroup">
+                            <h1 class="hgroup__heading brand">
+                                <span class="brand__span">sekawan</span>
+                            </h1>
+                            <p class="hgroup__sub-heading">Di mana Setiap Cangkir Punya Cerita</p>
+                        </hgroup>
+                        <a href="#menu" class="btn btn--primary btn--large">Beranda</a>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section section--about">
+                    <div class="wrapper wrapper--dark">
+                        <div class="container container--center">
+                            <div class="text-wrapper text-wrapper--lg text-wrapper--center">
+                                <div class="flex flex--md-center">
+                                    <div class="flex__item flex__item--w-xs-1/2 flex__item--w-md-full flex--gap-1">
+                                        <div class="display">3</div>
+                                        <div class="letter-gap">komentar</div>
+                                    </div>
+                                    <div class="flex__item flex__item--w-xs-1/2 flex__item--w-md-full flex--gap-1">
+                                        <div class="display">7</div>
+                                        <div class="letter-gap">Makanan</div>
+                                    </div>
+                                    <div class="flex__item flex__item--w-xs-1/2 flex__item--w-md-full flex--gap-1">
+                                        <div class="display">6</div>
+                                        <div class="letter-gap">Minuman</div>
+                                    </div>
+                                    <div class="flex__item flex__item--w-xs-1/2 flex__item--w-md-full flex--gap-1">
+                                        <div class="display">6</div>
+                                        <div class="letter-gap">Kopi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper wrapper--about-content">
+                        <div class="container container--center container--about">
+                            <div class="flex flex--2-md flex--between flex--items-center text-wrapper">
+                                <div class="flex__item flex__item--w-md-1/2">
+                                    <h2 class="text-wrapper__head">Tentang Kita</h2>
+                                    <p class="paragraph">
+                                        Di
+                                        <span class="brand">Café <span class="brand__span">sekawan</span></span>, kami
+                                        percaya bahwa setiap cangkir kopi haruslah sebuah
+                                        pengalaman yang layak untuk dinikmati. Perjalanan kami dimulai dengan
+                                        semangat untuk seni membuat kopi dan keinginan untuk
+                                        menciptakan surga bagi sesama penggemar kopi.
+                                    </p>
+                                    <p class="paragraph">
+                                        Dari saat Anda masuk ke kafe kami yang nyaman, Anda akan
+                                        diselimuti aroma biji kopi yang baru dipanggang
+                                        dan disambut oleh tim barista kami yang ramah dan berdedikasi. Kami
+                                        bangga dengan komitmen kami untuk mendapatkan biji kopi terbaik
+                                        terbaik dari sumber yang berkelanjutan dan etis, memastikan bahwa setiap
+                                        cangkir adalah cerminan sejati dari budaya kopi yang kaya yang kami
+                                        rayakan.
+                                    </p>
+                                </div>
+                                <div class="flex__item flex__item--w-md-1/2 main-img main-img--animate-1"
+                                    id="about-img">
+                                    <img src="img/foto cafe.jpeg" alt="Exterior" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="menu">
+                <div class="section section--menu">
+                    <div class="container container--center">
+                        <div class="text-wrapper">
+                            <h2 class="text-wrapper__head">Favorite Menu</h2>
+                            <div class="grid grid--main-template grid--favorite-menu">
+                                <div class="grid__item grid__item--relative grid__item--main flex flex--center">
+                                    <img src="img/favorite_food.JPG" class="grid-img"
+                                        alt="latte image by @janoon028 on Freepik" />
+                                    <div class="our-menu">
+                                        <p class="our-menu__name">kentang goreng</p>
+                                        <p class="our-menu__desc">Gurih</p>
+                                        <p class="our-menu__price">Rp. 9.000</p>
+                                    </div>
+                                </div>
+                                <div class="grid__item grid__item--relative grid__item--basic flex flex--center">
+                                    <img src="img/espresso.jpg" class="grid-img"
+                                        alt="espresso image by @valeria_aksakova on Freepik" />
+                                    <div class="our-menu">
+                                        <p class="our-menu__name">Kopi ABC</p>
+                                        <p class="our-menu__desc">Murni rasa kopi</p>
+                                        <p class="our-menu__price">Rp. 4.000</p>
+                                    </div>
+                                </div>
+                                <div class="grid__item grid__item--relative grid__item--basic flex flex--center">
+                                    <img src="img/cappucino.jpg" class="grid-img"
+                                        alt="cappucino image by @freepik on Freepik" />
+                                    <div class="our-menu">
+                                        <p class="our-menu__name">Cappucino</p>
+                                        <p class="our-menu__desc">Nendang rasa kopi</p>
+                                        <p class="our-menu__price">Rp.7.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper">
+                            <div class="flex flex--between flex--gap-2">
+                                <div class="flex__item">
+                                    <h3 class="text-wrapper__sub-head">Makanan</h3>
+                                    <ul class="our-menu-list">
+                                        <li class="our-menu-list__item">
+                                            <img src="img/favorite_food.JPG" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">kentang goreng</h4>
+                                                <p>Rp.9.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/mie.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">mie goreng/kuah</h4>
+                                                <p>Rp.7.000-10.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/rujak cireng.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Rujak Cireng</h4>
+                                                <p>Rp.12.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/piscok.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Piscok</h4>
+                                                <p>Rp.10.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/pisang bakar.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Pisang Bakar</h4>
+                                                <p>Rp.7.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/sempol ayam.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">sempol ayam</h4>
+                                                <p>Rp.10.000</p>
+                                            </div>
+                                    </ul>
+                                </div>
+
+                                <div class="flex__item">
+                                    <h3 class="text-wrapper__sub-head">Minuman</h3>
+                                    <ul class="our-menu-list">
+                                        <li class="our-menu-list__item">
+                                            <img src="img/es teh.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Teh manis/tawar</h4>
+                                                <p>Rp.5.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/greentea.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Green Tea</h4>
+                                                <p>Rp.7.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/jerukperas.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Jeruk Peras</h4>
+                                                <p>Rp.8.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/tarik.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Teh Tarik</h4>
+                                                <p>Rp.6.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/airmineral.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Air Mineral</h4>
+                                                <p>Rp.4.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/chocolatos.jpeg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Chocolatos</h4>
+                                                <p>Rp.6.000</p>
+                                            </div>
+                                    </ul>
+                                </div>
+                                <div class="flex__item">
+                                    <h3 class="text-wrapper__sub-head">Kopi</h3>
+                                    <ul class="our-menu-list">
+                                        <li class="our-menu-list__item">
+                                            <img src="img/cappucino.jpg" alt="menu"
+                                                class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Capucino</h4>
+                                                <p>Rp.7.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/susu.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">kopi Susu</h4>
+                                                <p>Rp.5.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/latte.jpg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Vanilla Late</h4>
+                                                <p>Rp.7.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/espresso.jpg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Kopi ABC</h4>
+                                                <p>Rp.4.000</p>
+                                            </div>
+                                        </li>
+                                        <li class="our-menu-list__item">
+                                            <img src="img/luwak.jpeg" alt="menu" class="our-menu-list__item__thumb" />
+                                            <div>
+                                                <h4 class="our-menu-list__item__name">Kopi Luwak</h4>
+                                                <p>Rp.5.000</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="testimony">
+                <div class="section section--testimony">
+                    <div class="container container--center container--testimony">
+                        <div class="text-wrapper text-wrapper--center">
+                            <h2 class="text-wrapper__head">Apa kata mereka</h2>
+                            <div class="swiper">
+                                <ul class="testimonies swiper-wrapper">
+                                    <li class="testimony swiper-slide">
+                                        <img src="img/testi-1.png" alt="img's testimony" class="testimony__img" />
+                                        <h3 class="testimony__name">Bob</h3>
+                                        <p class="testimony__text">
+                                            Saya sangat merekomendasikan Kentang goreng, kopi hitam, mie goreng, kopi
+                                            susu kepada siapa pun yang ingin menikmati sajian lezat dan kopi yang
+                                            nikmat!
+                                        </p>
+                                    </li>
+                                    <li class="testimony swiper-slide">
+                                        <img src="img/testi-2.png" alt="img's testimony" class="testimony__img" />
+                                        <h3 class="testimony__name">Megumi</h3>
+                                        <p class="testimony__text">
+                                            Pengalaman saya menikmati produk ini sungguh memuaskan. Setiap suapan dan
+                                            tegukan memberikan sensasi yang luar biasa. Tidak hanya itu, pelayanan yang
+                                            ramah dan cepat juga menambah nilai plus!
+                                        </p>
+                                    </li>
+                                    <li class="testimony swiper-slide">
+                                        <img src="img/testi-3.png" alt="img's testimony" class="testimony__img" />
+                                        <h3 class="testimony__name">Martha</h3>
+                                        <p class="testimony__text">
+                                            Mie goreng dan kopi susu adalah kombinasi sempurna untuk merasakan kelezatan
+                                            dalam satu sajian. Mie gorengnya gurih, dan kopi susunya memberikan sentuhan
+                                            manis yang sempurna. Pengalaman saya menikmati produk ini sungguh memuaskan!
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section section--contact">
+                    <div class="container container--center">
+                        <div class="text-wrapper">
+                            <h2 class="text-wrapper__head">Contact</h2>
+                            <div class="flex flex--rounded flex--bg-primary">
+                                <div class="flex__item">
+                                    <h2 class="text-wrapper__sub-head--center" style="font-size: 30px;">Maps</h2>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!4v1718628379989!6m8!1m7!1sQgXR9m94roe2t45lRqLFiQ!2m2!1d-6.362281373907073!2d106.7379110593527!3f282.41834227225786!4f-24.136160543782836!5f0.7820865974627469"
+                                        style="border:0;" allowfullscreen="" loading="lazy" class="maps"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div class="flex__item flex__item--p-2">
+                                    <h3 class="text-wrapper__sub-head text-wrapper__sub-head--center">
+                                        Kirim Pesan
+                                    </h3>
+                                    <form action="" method="post" class="form form--center">
+                                        <div class="form-group">
+                                            <label for="name-input" class="form-group__label">
+                                                <i class="icon" width="20" data-feather="at-sign"></i>Nama
+                                            </label>
+                                            <input type="text" class="form-group__input" name="name" id="name-input" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email-input" class="form-group__label">
+                                                <i class="icon" width="20" data-feather="mail"></i>Email
+                                            </label>
+                                            <input type="email" class="form-group__input" name="email"
+                                                id="email-input" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message-input" class="form-group__label">
+                                                <i class="icon" width="20" data-feather="message-square"></i>Pesan
+                                            </label>
+                                            <textarea class="form-group__input form-group__input--textarea" rows="3"
+                                                name="email" id="message-input"></textarea>
+                                        </div>
+                                        <div class="form-group form-group--center">
+                                            <button type="submit" class="btn btn--tertiary btn--no-shadow">
+                                                <i class="btn__icon" width="20" data-feather="send"></i>Kirim
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="section section--footer">
+            <div class="container container--center">
+                <div class="text-wrapper--center">
+                    <nav class="nav">
+                        <!-- <a class="link" href="https://facebook.com"
+                ><i class="icon" data-feather="facebook"></i
+              ></a>
+              <a class="link" href="https://youtube.com"
+                ><i class="icon" data-feather="youtube"></i
+              ></a> -->
+                        <a class="link" href="https://instagram.com"><i class="icon" data-feather="instagram"></i></a>
+                    </nav>
+                    <!-- <p>
+              Copyright &copy; 2023
+              <span class="brand">Café <span class="brand__span">in</span></span
+              >. All rights reserved
+            </p> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
